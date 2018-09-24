@@ -13,7 +13,7 @@ public class MakeSum
     double sum=0;
     while(n >= 1)
     {
-        sum = sum + (1 / n);
+        sum = sum + (1.0/(n));
         n = n - 1;
     }
     System.out.println("The sum is "+sum);
